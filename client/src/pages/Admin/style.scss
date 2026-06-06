@@ -1,0 +1,56 @@
+.admin-event {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    .add-dish, .edit-dish, .delete-dish {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 310px;
+        min-height: 420px;
+        border: 1px solid #f49a3371;
+        border-radius: 6px;
+        gap: 20px;
+        padding: 10px;
+
+        h1 {
+            font-size: 24px;
+            color: #f49a33;
+        }
+
+        .name, .price, .img {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+            p {
+                font-size: 14px;
+                color: #333;
+            }
+
+            input {
+                padding: 8px;
+                border: 1px solid #f49a33cf;
+                border-radius: 4px;
+            }
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 1px solid #f49b33;
+            border-radius: 6px;
+            color: #f49b33;
+            font-size: 18px;
+            transition: .3s;
+            &:hover {
+                background-color: #f49b33;
+                color: #fff;    
+            }
+        }
+    }
+}

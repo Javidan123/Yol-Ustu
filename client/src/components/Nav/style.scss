@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    .logo {
+        line-height: 42px;
+        font-size: 45px;
+        color: #f49b33;
+    }
+}

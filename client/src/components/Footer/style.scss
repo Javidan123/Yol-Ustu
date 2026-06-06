@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    .media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        .logo {
+            font-size: 45px;
+            line-height: 42px;
+            color: #f49b33;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            .tt {
+                width: 32px;
+                height: 32px;
+                background-image: url("../../../public/tt.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                transition: background-image .3s;
+
+                &:hover {
+                    background-image: url("../../../public/tt-hover.svg");
+                }
+            }
+            .ins {
+                width: 32px;
+                height: 32px;
+                background-image: url("../../../public/ins.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                transition: background-image 0.3s;
+
+                &:hover {
+                    background-image: url("../../../public/ins-hover.svg");
+                }
+            }
+            .wha {
+                width: 36px;
+                height: 36px;
+                background-image: url("../../../public/wha.svg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                transition: background-image 0.3s;
+
+                &:hover {
+                    background-image: url("../../../public/wha-hover.svg");
+                }
+            }
+        }
+    }
+}
